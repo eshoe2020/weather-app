@@ -1,6 +1,6 @@
 # Weather by City
 
-An app that allows the user to search for a city to see the current and expected weather conditions in that city.
+An app that allows the user to search for a city to see the current and expected weather conditions in that city, for that day.
 
 
 ## Version 1.0
@@ -16,7 +16,7 @@ An app that allows the user to search for a city to see the current and expected
 
 
 ## Features
-- search weather by entering any city, wordlwide
+- search weather by entering any city, worldwide
 - app will return the following weather stats for city:
     - the current temperature (F)
     - what the temperature "feels like" (F)
