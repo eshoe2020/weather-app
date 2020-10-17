@@ -13,6 +13,7 @@ An app that allows the user to search for a city to see the current and expected
 - HTML5
 - JavaScript 
 - jQuery v3.5
+- AJAX
 
 
 ## Features
