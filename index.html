@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Weather App</title>
+
+    <!-- Google Fonts CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+    <!-- Compiled CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Compiled and minified jQuery and JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script defer src="./js/config.js"></script>
+    <script defer src="./js/script.js"></script>
+    
+</head>
+
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="dropdown">
+            <button class="dropbtn" onclick="handleGetDays()">Forecast by Days
+              <i class="fa fa-caret-down"></i>
+            </button>
+              <div class="dropdown-content" id="myDropdown">
+                <a href="#">4 Days</a>
+                <a href="#">5 Days</a>
+                <a href="#">16 Days</a>
+              </div>
+            </div> 
+        </div>
+    </header>
+
+
+    <main>
+
+        <h1>Weather by City</h1>
+        <h4>Want to know the weather in a city?</br> 
+             Enter the city below, and hit search! </h4>
+
+        <form>
+            <input type="text" placeholder="Search a City">
+            <input type="submit" value="Search">
+        </form>
+
+        <p id="title"></p>
+        <p id="temp"></p>
+        <p id="index"></p>
+        <p id="high"></p>
+        <p id="low"></p>
+        <p id="desc"></p>
+        <i class = "icon"><img id="w-icon" src="" > </i>
+
+    </main>
+
+    
+
+   
+    
+    <footer></footer>  
+
+
+</body>
+</html>
